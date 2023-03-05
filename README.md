@@ -3,7 +3,7 @@
 A configurable bot that checks for repeated messages across a server's channels.
 
 Whenever a message is sent in the server, the bot will check if the user has sent the same exact message in the other
-channels recently. 
+channels recently.
 
 ## Self-Hosting
 
@@ -43,4 +43,4 @@ tutorials through a [quick search](https://gprivate.com/63xhz).
 
 ## License
 
-This project is licensed under []()
+This project is licensed under [The MIT License (MIT)](LICENSE)
