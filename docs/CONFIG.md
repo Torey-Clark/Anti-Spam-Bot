@@ -1,6 +1,6 @@
 # Configuration
 
-There are two main form of configuration for the bot, [environment](environment) and [general](general).
+There are two main form of configuration for the bot, [environment](#environment) and [general](#general).
 
 ## Environment
 
