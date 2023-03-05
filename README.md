@@ -25,7 +25,7 @@ Open a console at the repo location.
 
 Copy `.env.example` to `.env` and fill out each line.
 
-Edit `config.json` to your preferences. Check out [CONFIG.md](docs/CONFIG.- md) for more information.
+Edit `config.json` to your preferences. Check out [CONFIG.md](docs/CONFIG.md) for more information.
 
 Execute `npm i` to install the dependencies.
 
