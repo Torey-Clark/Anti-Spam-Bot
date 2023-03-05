@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "pino": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.21",
+    "pino-pretty": "^9.4.0"
+  },
+  "name": "anti-spam-bot",
+  "version": "1.0.0",
+  "description": "A configurable bot that checks for repeated messages across a server's channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Torey Clark",
+  "license": "MIT"
+}

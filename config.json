@@ -1,0 +1,15 @@
+{
+    "moderatorRoles_Comment": "This is a list of roles that are given to moderators on your server. This is used so the bot can message the moderators when a user is suspected of sending spam so they can make a final decision.",
+    "moderatorRoles": [
+        "Mods",
+        "Moderators"
+    ],
+    "excludedChannels_Comment": "This is a list of channel IDs that should not be considered when checking for spam. This could be announcements channels or perhaps channels that are meant to be spammed with emojis. You can get a channel ID by right clicking it in Discord and selected 'Copy ID' at the bottom of the list.",
+    "excludedChannels": [],
+    "maximumTimespanForMessages_Comment": "The time in minutes to consider messages spam. Duplicate messages sent within this many minutes of each other will be considered spam. Example: If set to five (5), if a message has been sent again within five (5) minutes of each other, it will be considered spam and the user will receive a timeout.",
+    "maximumTimespanForMessages": 5,
+    "maximumCommentLimit_Comment": "This determines how many messages in each channel will be searched for an identical message. If spam is sent while a channel has an active conversation, it may not be caught immediately. If this is one (1) only the most recent message in that channel will be considered. If this is zero (0) the bot is essentially disabled.",
+    "maximumCommentLimit": 10,
+    "timeoutDuration_Comment": "This determines how long a user suspected of spam will receive a timeout until a human moderator can verify.",
+    "timeoutDuration": 30
+}
